@@ -1,0 +1,13 @@
+package ranjiths;
+
+public class CallingStaticAndNonStaticmethods {
+	public static void main(String[] args) {
+		System.out.println(StaticAndNonStatic.staticVariable);
+		StaticAndNonStatic.staticMethod();
+		StaticAndNonStaticmethods obj= new StaticAndNonStaticmethods();
+		System.out.println(obj.nonstaticVariable);
+		obj.nonStaticMethod();
+		
+	}
+
+}
